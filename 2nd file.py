@@ -13,7 +13,7 @@ print("\nDataset after Removing Missing value:")
 print(cleaned_data)
 filled_data = data.fillna({
            "Working Hours":0,
-           "Project name": "Unknown",
+           "Project Name": "Unknown",
            "Attendance": "Absent"
 })
 print("\nDataset after Filling Missing Values:")
