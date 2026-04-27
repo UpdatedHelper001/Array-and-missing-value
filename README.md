@@ -1,1 +1,2 @@
-This is my 1st file where I have tried to manage the missing data.
+In 1st file i used dropna only.
+In 2nd file i used both dropna and fillna.
