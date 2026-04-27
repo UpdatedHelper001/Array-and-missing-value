@@ -7,6 +7,7 @@ data = pd.DataFrame({
              })
 print(data)
 print("Missing Values in Each Column:")
+print(data.isnull())
 print("\nTotal Missing Values in data set:", data.isnull().sum().sum())
 cleaned_data = data.dropna()
 print("\nDataset after Removing Missing value:")
